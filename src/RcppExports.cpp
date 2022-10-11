@@ -16,12 +16,14 @@ RcppExport SEXP _rcpp_module_boot_stan_fit4Overdispersed_Stan_mod();
 RcppExport SEXP _rcpp_module_boot_stan_fit4Teo_barrier_model_mod();
 RcppExport SEXP _rcpp_module_boot_stan_fit4Teo_basic_model_mod();
 RcppExport SEXP _rcpp_module_boot_stan_fit4Teo_transmission_error_model_mod();
+RcppExport SEXP _rcpp_module_boot_stan_fit4Uncorrelated_basic_mod();
 
 static const R_CallMethodDef CallEntries[] = {
     {"_rcpp_module_boot_stan_fit4Overdispersed_Stan_mod", (DL_FUNC) &_rcpp_module_boot_stan_fit4Overdispersed_Stan_mod, 0},
     {"_rcpp_module_boot_stan_fit4Teo_barrier_model_mod", (DL_FUNC) &_rcpp_module_boot_stan_fit4Teo_barrier_model_mod, 0},
     {"_rcpp_module_boot_stan_fit4Teo_basic_model_mod", (DL_FUNC) &_rcpp_module_boot_stan_fit4Teo_basic_model_mod, 0},
     {"_rcpp_module_boot_stan_fit4Teo_transmission_error_model_mod", (DL_FUNC) &_rcpp_module_boot_stan_fit4Teo_transmission_error_model_mod, 0},
+    {"_rcpp_module_boot_stan_fit4Uncorrelated_basic_mod", (DL_FUNC) &_rcpp_module_boot_stan_fit4Uncorrelated_basic_mod, 0},
     {NULL, NULL, 0}
 };
 
